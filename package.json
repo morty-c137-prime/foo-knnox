@@ -1,0 +1,28 @@
+{
+  "name": "foo-knnox",
+  "version": "1.0.0",
+  "description": "A foo knnox",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/morty-c137-prime/foo-knnox.git"
+  },
+  "author": "Richard Alvarez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/morty-c137-prime/foo-knnox/issues"
+  },
+  "homepage": "https://github.com/morty-c137-prime/foo-knnox#readme",
+  "devDependencies": {
+    "bulma": "^0.7.1",
+    "gulp": "^3.9.1",
+    "gulp-sass": "^4.0.1",
+    "node-sass": "^4.9.3"
+  },
+  "dependencies": {
+    "tachyons-sass": "^4.9.3"
+  }
+}

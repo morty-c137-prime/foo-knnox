@@ -1,0 +1,47 @@
+.tile
+{
+    cursor: pointer;
+
+    @extend .ba; 
+    @extend .b--black-40;
+    @extend .w-80;
+    @extend .w-80-m;
+    @extend .w-50-l;
+    @extend .center;
+    @extend .mt2;
+    @extend .mb4;
+    @extend .pr3;
+    @extend .pl3;
+    @extend .pt1;
+    // unsure why I need to have this but it somehow makes it look legit.
+    @extend .pb0;
+    @extend .flex;
+    @extend .items-center;
+
+    *
+    {
+        @extend .ma2;
+    }
+
+    .tile__large
+    {
+        @extend .w-75;
+        
+        .tile__large__header
+        {
+            @extend .f3; 
+            @extend .f2-l; 
+            @extend .pb1;
+            @extend .pl1;   
+            @extend .bb;
+            @extend .b--black-40;
+        }
+    }
+
+    .tile__image
+    {
+        @extend .w-25;
+        @extend .db-ns;
+        @extend .dn;
+    }
+}
