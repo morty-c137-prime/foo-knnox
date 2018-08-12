@@ -41,7 +41,9 @@
     .tile__image
     {
         @extend .w-25;
+        @extend .pr3;
         @extend .db-ns;
         @extend .dn;
+        @extend .ba;
     }
 }
